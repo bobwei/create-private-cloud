@@ -17,3 +17,8 @@ sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
 ```
 
 It only takes a few minutes for the Rancher server to start up. The Rancher user interface is published on port 8080 by default, and can be accessed at http://host_ip:8080. Once Rancher has successfully been installed, the user interface will guide you through adding your first compute node and container.
+
+## Todos after launching instances
+
+- Associate an elastic ip
+- Attach corresponding security group
