@@ -22,3 +22,15 @@ It only takes a few minutes for the Rancher server to start up. The Rancher user
 
 - Associate an elastic ip
 - Attach corresponding security group
+
+
+## Trouble Shooting
+
+command not found on CentOS 7.4
+```
+service: command not found
+```
+
+```
+export PATH=$PATH:/sbin
+```
