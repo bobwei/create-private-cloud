@@ -10,7 +10,13 @@ A curated stacks to bootstrap a private cloud with ease
 
 Rancher is a complete container management platform.
 
-Run on docker host to start rancher server
+Install docker on rancher host [link](http://rancher.com/docs/rancher/v1.6/en/hosts/#supported-docker-versions)
+
+```
+curl https://releases.rancher.com/install-docker/17.12.sh | sh
+```
+
+LAUNCHING RANCHER SERVER - SINGLE CONTAINER (NON-HA) [link](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/)
 
 ```
 sudo docker run -d --restart=unless-stopped -p 8080:8080 rancher/server:stable
