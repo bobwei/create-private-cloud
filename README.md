@@ -16,6 +16,13 @@ Install docker on rancher host [link](http://rancher.com/docs/rancher/v1.6/en/ho
 curl https://releases.rancher.com/install-docker/17.12.sh | sh
 ```
 
+If you would like to use Docker as a non-root user, you should now consider adding your user to the "docker" group
+
+```
+sudo /usr/sbin/usermod -aG docker $USER && \
+sudo su - $USER
+```
+
 LAUNCHING RANCHER SERVER - SINGLE CONTAINER (NON-HA) [link](http://rancher.com/docs/rancher/v1.6/en/installing-rancher/installing-server/)
 
 ```
