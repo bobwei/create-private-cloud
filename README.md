@@ -10,7 +10,7 @@ A curated stacks to bootstrap a private cloud with ease
 
 Rancher is a complete container management platform.
 
-Install docker on rancher host [link](http://rancher.com/docs/rancher/v1.6/en/hosts/#supported-docker-versions)
+Install docker on rancher host [link](http://rancher.com/docs/rancher/v1.6/en/hosts/#supported-docker-versions) [install-docker](https://github.com/rancher/install-docker)
 
 ```
 curl https://releases.rancher.com/install-docker/17.12.sh | sh
