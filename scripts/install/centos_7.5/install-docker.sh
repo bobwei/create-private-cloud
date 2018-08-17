@@ -500,6 +500,9 @@ do_install() {
 			;;
 	esac
 
+  sudo /usr/sbin/usermod -aG docker $USER && \
+  sudo su - $USER
+
 	# intentionally mixed spaces and tabs here -- tabs are stripped by "<<-'EOF'", spaces are kept in the output
 	cat >&2 <<-'EOF'
 
